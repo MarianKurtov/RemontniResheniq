@@ -10,17 +10,20 @@ using CloudinaryDotNet;
 using CloudinaryDotNet.Actions;
 using Microsoft.AspNetCore.Http;
 using dim.Services;
+using dim.Data;
 
 namespace dim.Controllers
 {
     public class HomeController : Controller
     {
         private readonly Cloudinary cloudinary;
+        private readonly ApplicationDbContext dbContext;
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger,Cloudinary cloudinary)
+        public HomeController(ILogger<HomeController> logger,Cloudinary cloudinary,ApplicationDbContext dbContext)
         {
             this.cloudinary = cloudinary;
+            this.dbContext = dbContext;
             _logger = logger;
         }
 
@@ -66,8 +69,9 @@ namespace dim.Controllers
         [HttpPost]
         public async Task<IActionResult> Upload(ICollection<IFormFile> files)
         {
-            
-           var result = await CloudinaryService.UploadAsync(files, this.cloudinary);
+            var result = await CloudinaryService.UploadAsync(files, this.cloudinary);
+            PhotoPathServices addToDatabase = new PhotoPathServices(dbContext);
+            addToDatabase.WriteInDatabase(result);
 
             return Redirect("/Home");
         }

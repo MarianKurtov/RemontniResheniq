@@ -1,6 +1,7 @@
 ﻿using CloudinaryDotNet;
 using CloudinaryDotNet.Actions;
 using dim.Data;
+using dim.Models;
 using Microsoft.AspNetCore.Http;
 using System.Collections.Generic;
 using System.IO;
@@ -11,12 +12,6 @@ namespace dim.Services
 {
     public class CloudinaryService
     {
-        private readonly ApplicationDbContext dbContext;
-
-        public CloudinaryService(ApplicationDbContext dbContext)
-        {
-            this.dbContext = dbContext;
-        }
         public static async Task<List<string>> UploadAsync(ICollection<IFormFile> formFile, Cloudinary cloudinary)
         {
             List<string> paths = new List<string>();
@@ -38,9 +33,8 @@ namespace dim.Services
                         File = new FileDescription(file.FileName, memory) //изисква името на файла и файла като стриим, за това отваряме using 
                     };
                     var result = await cloudinary.UploadAsync(uploadParams);
-                    var name = (result.PublicId).ToString() +"."+ (result.Format).ToString(); 
+                    var name = (result.PublicId).ToString() +"."+ (result.Format).ToString();
                     paths.Add(result.Uri.AbsoluteUri); //Взимаме абсолютния път на качените файлове(пътя до Cloudinary)
-                    ;
                 };
             }
             return paths;

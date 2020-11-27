@@ -3,6 +3,5 @@
     public class PrivacyViewModel
     {
         public string Email { get; set; }
-
     }
 }
