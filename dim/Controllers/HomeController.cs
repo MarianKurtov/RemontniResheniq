@@ -66,7 +66,8 @@ namespace dim.Controllers
         [HttpPost]
         public async Task<IActionResult> Upload(ICollection<IFormFile> files)
         {
-           await CloudinaryService.UploadAsync(files, this.cloudinary);
+            
+           var result = await CloudinaryService.UploadAsync(files, this.cloudinary);
 
             return Redirect("/Home");
         }
