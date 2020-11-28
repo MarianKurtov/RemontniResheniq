@@ -1,22 +1,22 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+@model dim.Data.ApplicationDbContext 
 
 <main class="page-content">
-    <div data-autoplay="false" data-slide-effect="fade" class="swiper-container swiper-slider">
-        <div class="swiper-wrapper">
+    <div  data-swiper-autoplay="2000" data-slide-effect="fade" class="swiper-container swiper-slider" >
+        <div class="swiper-wrapper" data-swiper-autoplay="2000">
             <div class="swiper-slide">
-                <img src="http://res.cloudinary.com/remontniresheniq/image/upload/v1606409346/t7jyd1ts94mimyv3xujn.jpg" alt="" width="800" height="500" />
+                <img src="https://res.cloudinary.com/remontniresheniq/image/upload/v1606582443/pk8y6ckzqcxhpkzeukoi.jpg" alt="" width="1920" height="600" />
                 <div class="swiper-slide-caption">
                     <div class="shell text-center text-sm-left">
                         <div class="range">
-                            <div class="cell-sm-8 cell-md-8 cell-lg-9">
-                                <h1>
-                                    <br class="veil reveal-sm-block">
-                                    НУЖДАЕТЕ СЕ ОТ ЦЯЛОСТЕН РЕМОНТ ?
-                                </h1>
+                            <div class="cell-sm-4 cell-md-4 cell-lg-6">
+                                <h2>Нуждаете се</h2>
+                                <h2>от цялостен</h2>
+                                <h2>ремонт?</h2>
                                 <div class="swiper-slide-text">
-                                    <h5 class="text-style-1"> Цялостно реализиране на основен ремонт, от А-Я ! </h5>
+                                    <h5 class="text-style-1"></h5>
                                 </div>
                                 <div class="offset-top-35"><a href="/Home/Appointment" class="btn btn-primary btn-mod-1">Направи запитване</a></div>
                             </div>
@@ -24,15 +24,19 @@
                     </div>
                 </div>
             </div>
+
             <div class="swiper-slide">
-                <img src="images/1920x600.jpg" alt="" width="1920" height="600" />
+                <img src="https://res.cloudinary.com/remontniresheniq/image/upload/v1606572028/hls0maca25ubkwnzmvdg.jpg" alt="" width="1920" height="600" />
                 <div class="swiper-slide-caption">
-                    <div class="shell text-center text-sm-left">
+                    <div class="shell text-right text-sm-right">
                         <div class="range">
-                            <div class="cell-sm-8 cell-md-8 cell-lg-6">
-                                <h1> НУЖДАЕТЕ СЕ ОТ ДОВЪРШИТЕЛЕН ИЛИ  ОСВЕЖИТЕЛЕН РЕМОНТ ?</h1>
+                            <div class="cell-sm-12 cell-md-12 cell-lg-12">
+                                <h2>Нуждаете се от</h2>
+                                <h2>частичен или</h2>
+                                <h2>довършителен</h2>
+                                <h2>ремонт?</h2>
                                 <div class="swiper-slide-text">
-                                    <h5 class="text-style-1"> Всички видове довършителни и освежителни ремонти ! </h5>
+                                    <h5 class="text-style-1"></h5>
                                 </div>
                                 <div class="offset-top-35 offset-sm-top-65"><a href="/Home/Appointment" class="btn btn-primary btn-mod-1">Направи запитване</a></div>
                             </div>
@@ -40,15 +44,17 @@
                     </div>
                 </div>
             </div>
+
             <div class="swiper-slide">
-                <img src="images/1920x600.jpg" alt="" width="1920" height="600" />
+                <img src="https://res.cloudinary.com/remontniresheniq/image/upload/v1606572024/vp9qwdapscqcbsmeqg9o.jpg" alt="" width="1920" height="600" />
                 <div class="swiper-slide-caption">
                     <div class="shell text-center text-sm-left">
                         <div class="range">
                             <div class="cell-sm-8 cell-md-8 cell-lg-7">
-                                <h1> НИЕ МОЖЕМ ДА НАПРАВИМ ВСИЧКО !</h1>
+                                <h2>Можем</h2>
+                                <h2>да помогнем!</h2>
                                 <div class="swiper-slide-text">
-                                    <h5 class="text-style-1"> Ние предлагаме, както цялостни ремонти от А-Я, така и довършителни ремонти !</h5>
+                                    <h5 class="text-style-1">Ние предлагаме, както цялостни ремонти от А-Я, така и довършителни ремонти!</h5>
                                 </div>
                                 <div class="offset-top-35"><a href="/Home/Appointment" class="btn btn-primary btn-mod-1">Направи запитване</a></div>
                             </div>
@@ -57,18 +63,16 @@
                 </div>
             </div>
             <div class="swiper-slide">
-                <img src="images/1920x600.jpg" alt="" width="1920" height="600" />
+                <img src="https://res.cloudinary.com/remontniresheniq/image/upload/v1606582558/tzrl8yvzb29nxzllgpby.jpg" alt="" width="1920" height="600" />
                 <div class="swiper-slide-caption">
                     <div class="shell text-center text-sm-left">
                         <div class="range">
-                            <div class="cell-sm-8 cell-md-8 cell-lg-9">
-                                <h1>
-                                    <br class="veil reveal-sm-block">
-                                    НОВО !!!
-                                    SOS ДОМАШЕН МАЙСТОР !
-                                </h1>
+                            <div class="cell-sm-10 cell-md-10 cell-lg-12">
+                                <h2>SOS</h2>
+                                <h2>Домашен</h2>
+                                <h2>майстор!</h2>
                                 <div class="swiper-slide-text">
-                                    <h5 class="text-style-1"> Всякакъв вид строителни, довършителни, монтажни и освежителени услуги ! </h5>
+                                    <h5 class="text-style-1">!</h5>
                                 </div>
                                 <div class="offset-top-35"><a href="/Home/Appointment" class="btn btn-primary btn-mod-1">Направи запитване</a></div>
                             </div>
@@ -77,14 +81,14 @@
                 </div>
             </div>
             <div class="swiper-slide">
-                <img src="images/1920x600.jpg" alt="" width="1920" height="600" />
+                <img src="https://res.cloudinary.com/remontniresheniq/image/upload/v1606574216/tems0pyeu0y57o1ekrgb.jpg" alt="" width="1920" height="600" />
                 <div class="swiper-slide-caption">
                     <div class="shell text-center text-sm-left">
                         <div class="range">
                             <div class="cell-sm-8 cell-md-8 cell-lg-6">
-                                <h1> ОБЛИЦОВАНИ КАМЪНИ !</h1>
+                                <h2>Изработка и поставяне на декоративни, облицовачни камъни!</h2>
                                 <div class="swiper-slide-text">
-                                    <h5 class="text-style-1"> Изработка и поставяне на облицовани камъни ! </h5>
+                                    <h5 class="text-style-1"></h5>
                                 </div>
                                 <div class="offset-top-35 offset-sm-top-65"><a href="/Home/Appointment" class="btn btn-primary btn-mod-1">Направи запитване</a></div>
                             </div>
@@ -130,7 +134,7 @@
                     <div class="counter-wrap">
                         <span class="icon icon-lg icon-primary linecons-user12"></span>
                         <div class="counter-value">
-                            <p class="h3"><span data-from="0" data-to="600" class="counter">2 954</span></p>
+                            <p class="h3"><span data-from="0" data-to="250" class="counter">2 954</span></p>
                         </div>
                         <div class="divider-center divider-md divider-denim"></div>
                         <div class="counter-text">
@@ -142,12 +146,12 @@
                     <div class="counter-wrap">
                         <span class="icon icon-lg-variant-1 icon-primary linecons-tv1"></span>
                         <div class="counter-value">
-                            <p class="h3"><span data-from="0" data-to="250" class="counter">3 597</span></p>
+                            <p class="h3"><span data-from="0" data-to="100" class="counter">3 597</span></p>
                         </div>
                         <div class="divider-center divider-md divider-denim"></div>
                         <div class="counter-text">
                             <p class="text-style-2">ДОВЪРШЕНИ ПРОЕКТИ</p>
-                        </div>
+                        </div>з
                     </div>
                 </div>
             </div>
@@ -172,7 +176,7 @@
                     <div data-arrows="true" data-loop="true" data-dots="false" data-swipe="true" data-items="1" data-sm-items="3" data-md-items="3" data-lg-items="4" data-xl-items="6" data-slide-to-scroll="1" data-mobile-center-mode="true" data-sm-center-mode="false" data-center-padding="30px" data-sm-center-padding="0.5" class="slick-slider slick-slider-style-1">
                         <div class="item height-fill">
                             <div class="product">
-                                <a href="/Home/Services#1" class="product-image"><img src="images/223x227.jpg" alt="" width="223" height="227" /></a>
+                                <a href="/Home/Services#1" class="product-image"><img src="https://res.cloudinary.com/remontniresheniq/image/upload/v1606572027/qefpaty75anav7jefljq.jpg" alt="" width="223" height="227" /></a>
                                 <div class="product-caption">
                                     <div class="divider divider-sm divider-primary"></div>
                                     <div class="product-title">
@@ -183,7 +187,7 @@
                         </div>
                         <div class="item height-fill">
                             <div class="product">
-                                <a href="/Home/Services#2" class="product-image"><img src="images/223x227.jpg" alt="" width="223" height="227" /></a>
+                                <a href="/Home/Services#2" class="product-image"><img src="https://res.cloudinary.com/remontniresheniq/image/upload/v1606572028/mdydsnchx0wzkeljktz2.jpg" alt="" width="223" height="227" /></a>
                                 <div class="product-caption">
                                     <div class="divider divider-sm divider-primary"></div>
                                     <div class="product-title">
@@ -194,7 +198,7 @@
                         </div>
                         <div class="item height-fill">
                             <div class="product">
-                                <a href="/Home/Services#3" class="product-image"><img src="images/223x227.jpg" alt="" width="223" height="227" /></a>
+                                <a href="/Home/Services#3" class="product-image"><img src="https://res.cloudinary.com/remontniresheniq/image/upload/v1606572023/py2i8e9eij3iy69cjejm.jpg" alt="" width="223" height="227" /></a>
                                 <div class="product-caption">
                                     <div class="divider divider-sm divider-primary"></div>
                                     <div class="product-title">
@@ -205,7 +209,7 @@
                         </div>
                         <div class="item height-fill">
                             <div class="product">
-                                <a href="/Home/Services#4" class="product-image"><img src="images/223x227.jpg" alt="" width="223" height="227" /></a>
+                                <a href="/Home/Services#4" class="product-image"><img src="https://res.cloudinary.com/remontniresheniq/image/upload/v1606572031/dsqm63vz3fbjqxjrzykl.jpg" alt="" width="223" height="227" /></a>
                                 <div class="product-caption">
                                     <div class="divider divider-sm divider-primary"></div>
                                     <div class="product-title">
@@ -216,7 +220,7 @@
                         </div>
                         <div class="item height-fill">
                             <div class="product">
-                                <a href="/Home/Services#5" class="product-image"><img src="images/223x227.jpg" alt="" width="223" height="227" /></a>
+                                <a href="/Home/Services#5" class="product-image"><img src="https://res.cloudinary.com/remontniresheniq/image/upload/v1606572031/dt3nwszeiqhkoysrpx1y.jpg" alt="" width="223" height="227" /></a>
                                 <div class="product-caption">
                                     <div class="divider divider-sm divider-primary"></div>
                                     <div class="product-title">
@@ -227,7 +231,7 @@
                         </div>
                         <div class="item height-fill">
                             <div class="product">
-                                <a href="/Home/Services#6" class="product-image"><img src="images/223x227.jpg" alt="" width="223" height="227" /></a>
+                                <a href="/Home/Services#6" class="product-image"><img src="https://res.cloudinary.com/remontniresheniq/image/upload/v1606572032/ju1v2sei3b0xalyqd1pr.jpg" alt="" width="223" height="227" /></a>
                                 <div class="product-caption">
                                     <div class="divider divider-sm divider-primary"></div>
                                     <div class="product-title">
@@ -238,7 +242,7 @@
                         </div>
                         <div class="item height-fill">
                             <div class="product">
-                                <a href="/Home/Services#7" class="product-image"><img src="images/223x227.jpg" alt="" width="223" height="227" /></a>
+                                <a href="/Home/Services#7" class="product-image"><img src="https://res.cloudinary.com/remontniresheniq/image/upload/v1606589081/g8tortjkonrw6t59oqif.jpg" alt="" width="223" height="227" /></a>
                                 <div class="product-caption">
                                     <div class="divider divider-sm divider-primary"></div>
                                     <div class="product-title">
@@ -249,7 +253,7 @@
                         </div>
                         <div class="item height-fill">
                             <div class="product">
-                                <a href="/Home/Services#8" class="product-image"><img src="images/223x227.jpg" alt="" width="223" height="227" /></a>
+                                <a href="/Home/Services#8" class="product-image"><img src="https://res.cloudinary.com/remontniresheniq/image/upload/v1606572031/dt3nwszeiqhkoysrpx1y.jpg" alt="" width="223" height="227" /></a>
                                 <div class="product-caption">
                                     <div class="divider divider-sm divider-primary"></div>
                                     <div class="product-title">
@@ -260,7 +264,7 @@
                         </div>
                         <div class="item height-fill">
                             <div class="product">
-                                <a href="/Home/Services#9" class="product-image"><img src="images/223x227.jpg" alt="" width="223" height="227" /></a>
+                                <a href="/Home/Services#9" class="product-image"><img src="https://res.cloudinary.com/remontniresheniq/image/upload/v1606589302/yxprz1mdvadky7lqts6x.jpg" alt="" width="223" height="227" /></a>
                                 <div class="product-caption">
                                     <div class="divider divider-sm divider-primary"></div>
                                     <div class="product-title">
@@ -271,18 +275,18 @@
                         </div>
                         <div class="item height-fill">
                             <div class="product">
-                                <a href="/Home/Services#10" class="product-image"><img src="images/223x227.jpg" alt="" width="223" height="227" /></a>
+                                <a href="/Home/Services#10" class="product-image"><img src="https://res.cloudinary.com/remontniresheniq/image/upload/v1606574216/tems0pyeu0y57o1ekrgb.jpg" alt="" width="223" height="227" /></a>
                                 <div class="product-caption">
                                     <div class="divider divider-sm divider-primary"></div>
                                     <div class="product-title">
-                                        <h5><a href="/Home/Services#10">Облицовачни камъни</a></h5>
+                                        <h5><a href="/Home/Services#10">Облицовъчни камъни</a></h5>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="item height-fill">
                             <div class="product">
-                                <a href="/Home/Services#11" class="product-image"><img src="images/223x227.jpg" alt="" width="223" height="227" /></a>
+                                <a href="/Home/Services#11" class="product-image"><img src="https://res.cloudinary.com/remontniresheniq/image/upload/v1606572025/ig12nd9idd2llo6xzith.jpg" alt="" width="223" height="227" /></a>
                                 <div class="product-caption">
                                     <div class="divider divider-sm divider-primary"></div>
                                     <div class="product-title">
@@ -293,7 +297,7 @@
                         </div>
                         <div class="item height-fill">
                             <div class="product">
-                                <a href="/Home/Services#12" class="product-image"><img src="images/223x227.jpg" alt="" width="223" height="227" /></a>
+                                <a href="/Home/Services#12" class="product-image"><img src="https://res.cloudinary.com/remontniresheniq/image/upload/v1606572025/ksid95vkdozfrnpnpbgc.jpg" alt="" width="223" height="227" /></a>
                                 <div class="product-caption">
                                     <div class="divider divider-sm divider-primary"></div>
                                     <div class="product-title">
@@ -304,11 +308,44 @@
                         </div>
                         <div class="item height-fill">
                             <div class="product">
-                                <a href="/Home/Services#13" class="product-image"><img src="images/223x227.jpg" alt="" width="223" height="227" /></a>
+                                <a href="/Home/Services#13" class="product-image"><img src="https://res.cloudinary.com/remontniresheniq/image/upload/v1606572026/i3z27uljecwwlxdu7j7h.jpg" alt="" width="223" height="227" /></a>
                                 <div class="product-caption">
                                     <div class="divider divider-sm divider-primary"></div>
                                     <div class="product-title">
                                         <h5><a href="/Home/Services#13">Топлоизолация</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item height-fill">
+                            <div class="product">
+                                <a href="/Home/Services#13" class="product-image"><img src="https://res.cloudinary.com/remontniresheniq/image/upload/v1606589303/x5vhozhilnz0v3mztqyv.jpg" alt="" width="223" height="227" /></a>
+                                <div class="product-caption">
+                                    <div class="divider divider-sm divider-primary"></div>
+                                    <div class="product-title">
+                                        <h5><a href="/Home/Services#15">Хидроизолация</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item height-fill">
+                            <div class="product">
+                                <a href="/Home/Services#13" class="product-image"><img src="https://res.cloudinary.com/remontniresheniq/image/upload/v1606589303/zzd9zdbkhvxzn8jwzlg4.jpg" alt="" width="223" height="227" /></a>
+                                <div class="product-caption">
+                                    <div class="divider divider-sm divider-primary"></div>
+                                    <div class="product-title">
+                                        <h5><a href="/Home/Services#16">Зидария и грубо строителство</a></h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item height-fill">
+                            <div class="product">
+                                <a href="/Home/Services#13" class="product-image"><img src="https://res.cloudinary.com/remontniresheniq/image/upload/v1606572029/pbv8kvpll9yyb2skpveq.jpg" alt="" width="223" height="227" /></a>
+                                <div class="product-caption">
+                                    <div class="divider divider-sm divider-primary"></div>
+                                    <div class="product-title">
+                                        <h5><a href="/Home/Services#17">Къртене, чистене и извозване</a></h5>
                                     </div>
                                 </div>
                             </div>
@@ -319,8 +356,8 @@
         </div>
     </section>
     <section data-on="false" data-lg-on="true" class="rd-parallax bg-gray-base rd-parallax-overlay">
-        <div data-speed="0.5" data-type="media" data-url="images/1920x800.jpg" class="rd-parallax-layer"></div>
-        <div data-speed="0" data-type="html" class="rd-parallax-layer">
+        <div data-speed="1.5" data-type="media" data-url="https://res.cloudinary.com/remontniresheniq/image/upload/v1606572028/hls0maca25ubkwnzmvdg.jpg" class="rd-parallax-layer"></div>
+        <div data-speed="1" data-type="html" class="rd-parallax-layer">
             <div class="section-60 section-sm-top-110 section-sm-bottom-100">
                 <div class="shell">
                     <div class="range text-center">
@@ -343,6 +380,7 @@
             </div>
         </div>
     </section>
+
     <section class="section-60 section-sm-top-110 section-sm-bottom-100">
         <div class="shell">
             <div class="range text-center">
