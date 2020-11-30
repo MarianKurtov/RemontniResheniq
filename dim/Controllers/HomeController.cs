@@ -52,10 +52,6 @@ namespace dim.Controllers
         {
             return this.View();
         }
-        public IActionResult Gallery()
-        {
-            return this.View();
-        }
         public IActionResult Repair()
         {
             return this.View();
@@ -64,7 +60,6 @@ namespace dim.Controllers
         {
             return this.View();
         }
-        
        
         [HttpPost]
         public async Task<IActionResult> Upload(ICollection<IFormFile> files)
@@ -74,6 +69,33 @@ namespace dim.Controllers
             addToDatabase.WriteInDatabase(result);
 
             return Redirect("/Home");
+        }
+
+
+        public IActionResult Gallery()
+        {
+            return this.View();
+        }
+        // Gallerys
+        public IActionResult GalleryIztok()
+        {
+            return this.View();
+        }
+        public IActionResult GalleryCenter1()
+        {
+            return this.View();
+        }
+        public IActionResult GalleryCenter2()
+        {
+            return this.View();
+        }
+        public IActionResult GallerySlatina()
+        {
+            return this.View();
+        }
+        public IActionResult GalleryLozenec()
+        {
+            return this.View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

@@ -158,4 +158,9 @@ C:\Users\Marian\source\repos\dim\dim\obj\Debug\netcoreapp3.1\staticwebassets\dim
 C:\Users\Marian\source\repos\dim\dim\obj\Debug\netcoreapp3.1\dim.dll
 C:\Users\Marian\source\repos\dim\dim\obj\Debug\netcoreapp3.1\dim.pdb
 C:\Users\Marian\source\repos\dim\dim\obj\Debug\netcoreapp3.1\dim.genruntimeconfig.cache
-C:\Users\Marian\source\repos\dim\dim\obj\Debug\netcoreapp3.1\dim.csprojAssemblyReference.cache
+C:\Users\Marian\source\repos\dim\dim\obj\Debug\netcoreapp3.1\Razor\Views\Home\GalleryIztok.cshtml.g.cs
+C:\Users\Marian\source\repos\dim\dim\obj\Debug\netcoreapp3.1\Razor\Views\Home\GalleryCenter1.cshtml.g.cs
+C:\Users\Marian\source\repos\dim\dim\obj\Debug\netcoreapp3.1\Razor\Views\Home\GalleryCenter2.cshtml.g.cs
+C:\Users\Marian\source\repos\dim\dim\obj\Debug\netcoreapp3.1\Razor\Views\Home\GallerySlatina.cshtml.g.cs
+C:\Users\Marian\source\repos\dim\dim\obj\Debug\netcoreapp3.1\Razor\Views\Home\GalleryLozenec.cshtml.g.cs
+C:\Users\Marian\source\repos\dim\dim\bin\Debug\netcoreapp3.1\wwwroot\images\logo-light-250x40.png

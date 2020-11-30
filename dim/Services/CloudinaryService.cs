@@ -12,9 +12,9 @@ namespace dim.Services
 {
     public class CloudinaryService
     {
-        public static async Task<List<string>> UploadAsync(ICollection<IFormFile> formFile, Cloudinary cloudinary)
+        public static async Task<Dictionary<string,string>> UploadAsync(ICollection<IFormFile> formFile, Cloudinary cloudinary)
         {
-            List<string> paths = new List<string>();
+           var paths = new Dictionary<string,string>();
 
             foreach (var file in formFile)
             {
@@ -33,8 +33,9 @@ namespace dim.Services
                         File = new FileDescription(file.FileName, memory) //изисква името на файла и файла като стриим, за това отваряме using 
                     };
                     var result = await cloudinary.UploadAsync(uploadParams);
-                    var name = (result.PublicId).ToString() +"."+ (result.Format).ToString();
-                    paths.Add(result.Uri.AbsoluteUri); //Взимаме абсолютния път на качените файлове(пътя до Cloudinary)
+                    var name = result.OriginalFilename.ToString();
+                    paths.Add(name,result.Uri.AbsoluteUri.ToString()); //Взимаме абсолютния път на качените файлове(пътя до Cloudinary)
+                    ;
                 };
             }
             return paths;
