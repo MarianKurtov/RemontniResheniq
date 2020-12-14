@@ -1,6 +1,5 @@
 C:\Users\Marian\source\repos\dim\dim\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\Marian\source\repos\dim\dim\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\Marian\source\repos\dim\dim\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\Marian\source\repos\dim\dim\bin\Debug\netcoreapp3.1\dim.exe
 C:\Users\Marian\source\repos\dim\dim\bin\Debug\netcoreapp3.1\wwwroot\images\el1.png
 C:\Users\Marian\source\repos\dim\dim\bin\Debug\netcoreapp3.1\dim.deps.json
@@ -127,8 +126,6 @@ C:\Users\Marian\source\repos\dim\dim\bin\Debug\netcoreapp3.1\runtimes\win\lib\ne
 C:\Users\Marian\source\repos\dim\dim\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Marian\source\repos\dim\dim\obj\Debug\netcoreapp3.1\dim.AssemblyInfoInputs.cache
 C:\Users\Marian\source\repos\dim\dim\obj\Debug\netcoreapp3.1\dim.AssemblyInfo.cs
-C:\Users\Marian\source\repos\dim\dim\obj\Debug\netcoreapp3.1\dim.csproj.CoreCompileInputs.cache
-C:\Users\Marian\source\repos\dim\dim\obj\Debug\netcoreapp3.1\dim.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Marian\source\repos\dim\dim\obj\Debug\netcoreapp3.1\dim.RazorAssemblyInfo.cache
 C:\Users\Marian\source\repos\dim\dim\obj\Debug\netcoreapp3.1\dim.RazorAssemblyInfo.cs
 C:\Users\Marian\source\repos\dim\dim\obj\Debug\netcoreapp3.1\dim.TagHelpers.input.cache
@@ -164,3 +161,8 @@ C:\Users\Marian\source\repos\dim\dim\obj\Debug\netcoreapp3.1\Razor\Views\Home\Ga
 C:\Users\Marian\source\repos\dim\dim\obj\Debug\netcoreapp3.1\Razor\Views\Home\GallerySlatina.cshtml.g.cs
 C:\Users\Marian\source\repos\dim\dim\obj\Debug\netcoreapp3.1\Razor\Views\Home\GalleryLozenec.cshtml.g.cs
 C:\Users\Marian\source\repos\dim\dim\bin\Debug\netcoreapp3.1\wwwroot\images\logo-light-250x40.png
+C:\Users\Marian\source\repos\dim\dim\bin\Debug\netcoreapp3.1\SendGrid.dll
+C:\Users\Marian\source\repos\dim\dim\bin\Debug\netcoreapp3.1\StarkbankEcdsa.dll
+C:\Users\Marian\source\repos\dim\dim\obj\Debug\netcoreapp3.1\dim.csproj.CoreCompileInputs.cache
+C:\Users\Marian\source\repos\dim\dim\obj\Debug\netcoreapp3.1\dim.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Marian\source\repos\dim\dim\obj\Debug\netcoreapp3.1\scopedcss\bundle\dim.styles.css

@@ -25,7 +25,6 @@ namespace dim.Services
                     await file.CopyToAsync(memoryStream);//копира съдържанието в фийла, който му подаваме
                     imageInByteArray = memoryStream.ToArray(); //байт масива взима съдържанието от стриима
                 }
-
                 using (var memory = new MemoryStream(imageInByteArray))
                 {
                     var uploadParams = new ImageUploadParams()

@@ -11,6 +11,7 @@ using CloudinaryDotNet.Actions;
 using Microsoft.AspNetCore.Http;
 using dim.Services;
 using dim.Data;
+using Microsoft.Extensions.Configuration;
 
 namespace dim.Controllers
 {
@@ -18,12 +19,16 @@ namespace dim.Controllers
     {
         private readonly Cloudinary cloudinary;
         private readonly ApplicationDbContext dbContext;
+        private readonly IMailServices mailServices;
+        private readonly IConfiguration configuration;
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger,Cloudinary cloudinary,ApplicationDbContext dbContext)
+        public HomeController(IConfiguration configuration, ILogger<HomeController> logger,Cloudinary cloudinary,ApplicationDbContext dbContext,IMailServices mailServices)
         {
             this.cloudinary = cloudinary;
             this.dbContext = dbContext;
+            this.mailServices = mailServices;
+            this.configuration = configuration;
             _logger = logger;
         }
 
@@ -60,23 +65,11 @@ namespace dim.Controllers
         {
             return this.View();
         }
-       
-        [HttpPost]
-        public async Task<IActionResult> Upload(ICollection<IFormFile> files)
-        {
-            var result = await CloudinaryService.UploadAsync(files, this.cloudinary);
-            PhotoPathServices addToDatabase = new PhotoPathServices(dbContext);
-            addToDatabase.WriteInDatabase(result);
-
-            return Redirect("/Home");
-        }
-
-
+        
         public IActionResult Gallery()
         {
             return this.View();
         }
-        // Gallerys
         public IActionResult GalleryIztok()
         {
             return this.View();
@@ -97,6 +90,32 @@ namespace dim.Controllers
         {
             return this.View();
         }
+
+        [HttpPost]
+        public async Task<IActionResult> Upload(ICollection<IFormFile> files)
+        {
+            var result = await CloudinaryService.UploadAsync(files, this.cloudinary);
+            PhotoPathServices addToDatabase = new PhotoPathServices(dbContext);
+            addToDatabase.WriteInDatabase(result);
+
+            return Redirect("/Home");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Contact(ContactFormViewModel model) // Подаваме ViewModel-a като параметър(списъка от параметрите, които имаме в класа)
+        {
+
+            if (!this.ModelState.IsValid)
+            {
+                return this.View(model);
+            }
+
+            var email = new SendGridServices(configuration);
+            await email.SendMailAsync(model.Email,model.Name,model.Content.Substring(0,10), "remontniresheniq@gmail.com","Marian",model.Content,$"<h1>{model.Content}<h1><p>Marr</p>");
+
+            return this.Redirect("/");
+        }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

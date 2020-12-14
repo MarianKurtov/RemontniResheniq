@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using CloudinaryDotNet;
 using dim.Data;
+using dim.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -28,12 +29,12 @@ namespace dim
         {
             services.AddControllersWithViews();
             services.AddDbContext<ApplicationDbContext>();
+            services.AddTransient<IMailServices,SendGridServices>();
 
             Account account = new Account(
                 this.Configuration["Cloudinary:ApiName"],
                 this.Configuration["Cloudinary:APIKey"],
                 this.Configuration["Cloudinary:APISecret"]);
-
             Cloudinary cloudinary = new Cloudinary(account);
 
             services.AddSingleton(cloudinary);

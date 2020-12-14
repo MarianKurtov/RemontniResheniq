@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "1vWlg3kIOEKNPx7u3nPR9xyTqKxZBzoJcg49FvqgKUxp/X9cQBZN9OBfLC/kJE3cjRi3nwWXXojkqUcZCdhJ0A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Marian\\source\\repos\\dim\\Datalibrary\\Datalibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Marian\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Marian\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
