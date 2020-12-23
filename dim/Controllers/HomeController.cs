@@ -90,7 +90,10 @@ namespace dim.Controllers
         {
             return this.View();
         }
-
+        public IActionResult GalleryStuklar()
+        {
+            return this.View();
+        }
         [HttpPost]
         public async Task<IActionResult> Upload(ICollection<IFormFile> files)
         {
