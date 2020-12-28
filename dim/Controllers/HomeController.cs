@@ -94,6 +94,15 @@ namespace dim.Controllers
         {
             return this.View();
         }
+        public IActionResult GallerySifoni()
+        {
+            return this.View();
+        }
+        public IActionResult GalleryDurvodelec()
+        {
+            return this.View();
+        }
+
         [HttpPost]
         public async Task<IActionResult> Upload(ICollection<IFormFile> files)
         {
