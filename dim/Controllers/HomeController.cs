@@ -99,6 +99,10 @@ namespace dim.Controllers
         {
             return this.View();
         }
+        public IActionResult SuccessfullySendEmail()
+        {
+            return this.View();
+        }
 
         [HttpPost]
         public async Task<IActionResult> Upload(ICollection<IFormFile> files)
@@ -122,7 +126,7 @@ namespace dim.Controllers
             var email = new SendGridServices(configuration);
             await email.SendMailAsync(model.Email,model.Name,model.Content.Substring(0,10), "remontniresheniq@gmail.com","Marian",model.Content,$"<h1>{model.Content}<h1>",model.Phone);
 
-            return this.Redirect("/");
+            return this.Redirect("/Home/SuccessfullySendEmail");
         }
 
 
