@@ -163,4 +163,3 @@ C:\Users\Marian\source\repos\dim\dim\obj\Debug\net5.0\Razor\Views\Home\GallerySi
 C:\Users\Marian\source\repos\dim\dim\obj\Debug\net5.0\Razor\Views\Home\GalleryStuklar.cshtml.g.cs
 C:\Users\Marian\source\repos\dim\dim\bin\Debug\net5.0\Views\Home\GalleryStuklar.cshtml
 C:\Users\Marian\source\repos\dim\dim\obj\Debug\net5.0\Razor\Views\Home\GalleryDurvodelec.cshtml.g.cs
-C:\Users\Marian\source\repos\dim\dim\obj\Debug\net5.0\dim.csprojAssemblyReference.cache
