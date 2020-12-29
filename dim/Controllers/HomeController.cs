@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using dim.Models;
 using CloudinaryDotNet;
-using CloudinaryDotNet.Actions;
 using Microsoft.AspNetCore.Http;
 using dim.Services;
 using dim.Data;
@@ -116,14 +113,14 @@ namespace dim.Controllers
         [HttpPost]
         public async Task<IActionResult> Contact(ContactFormViewModel model) // Подаваме ViewModel-a като параметър(списъка от параметрите, които имаме в класа)
         {
-
+            ; 
             if (!this.ModelState.IsValid)
             {
                 return this.View(model);
             }
 
             var email = new SendGridServices(configuration);
-            await email.SendMailAsync(model.Email,model.Name,model.Content.Substring(0,10), "remontniresheniq@gmail.com","Marian",model.Content,$"<h1>{model.Content}<h1><p>Marr</p>");
+            await email.SendMailAsync(model.Email,model.Name,model.Content.Substring(0,10), "remontniresheniq@gmail.com","Marian",model.Content,$"<h1>{model.Content}<h1>",model.Phone);
 
             return this.Redirect("/");
         }

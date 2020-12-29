@@ -11,6 +11,7 @@ namespace dim.Services
             string toEmail,
             string toEmailName,
             string content,
-            string htmlContents);
+            string htmlContents,
+            string phoneNumber);
     }
 }

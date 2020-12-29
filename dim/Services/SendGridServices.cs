@@ -15,7 +15,7 @@ namespace dim.Services
             this.configuration = configuration;
         }
 
-        public async Task SendMailAsync(string fromEmail,string fromName, string subjectEmail,string toEmail,string toEmailName, string content,string htmlContents)
+        public async Task SendMailAsync(string fromEmail,string fromName, string subjectEmail,string toEmail,string toEmailName, string content,string htmlContents, string phoneNumber)
         {
             ;
             var apiKey = this.configuration["SendGrid:APIKey"];
@@ -27,11 +27,11 @@ namespace dim.Services
                 throw new ArgumentException("Subject and message should be provided.");
             }
 
-            var from = new EmailAddress(fromEmail, fromName);
+            var from = new EmailAddress("marian11@abv.bg", fromName);
             var subject = subjectEmail;
             var to = new EmailAddress(toEmail, toEmailName);
             var plainTextContent = content;
-            var htmlContent = htmlContents;
+            var htmlContent = htmlContents + "Email of sender: " + fromEmail + " Phone Of sender: " + phoneNumber;
             var msg = MailHelper.CreateSingleEmail(from, to, subject, plainTextContent, htmlContent);
 
             try
