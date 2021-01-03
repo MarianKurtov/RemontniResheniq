@@ -22,9 +22,8 @@ namespace dim.Services
                     Name = key,
                     DefoultPath = value
                 };
-
-                dbContext.Photos.Add(currentPhoto);
-                dbContext.SaveChanges();
+                //dbContext.Photos.Add(currentPhoto); Запаметяване на снимката в базата
+                //dbContext.SaveChanges();
             }
         }
     }

@@ -13,15 +13,12 @@ namespace dim.Services
         {
             this.db = db;
         }
-
         public Dictionary<string,string> Photos(string nameOfGallery)
         {
-            ;
             foreach (var photo in db.Photos.Where(x=>x.Name.Contains(nameOfGallery)))
             {
                 currentGallery.Add(photo.Name, photo.DefoultPath); // имената и снимките по име на галерията 
             }
-            ;
             return currentGallery;
         }
     }
