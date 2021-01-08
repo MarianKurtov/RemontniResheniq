@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAZd6pprtNhEKjHfAlJMlvdAAAAAACAAAAAAAQZgAAAAEAACAAAAAR+BmvK9r1cDntkCR7wC7sYxvbW4IjITXgkBE4mi25NQAAAAAOgAAAAAIAACAAAADhd41f4xH/CMp6hBqCmCPdySTpL1Dpq5DrobD4V6P6H4AAAAB9EL61UytvyVY7lh1cbwAXgwDKKoy8xesQxGf+dxED3XPx8VjBrUr/gFTfwEhB9JCKa+w9FDFs+6EQ8kThTb+d2bf0rfphtHa+/2AkyGSonGQbMpaxhQiylWtO2v+GQJB5W0hzh7V2YmPwRwLxeATe6VfN70+xRnCTarGJya+ZwkAAAACvxY/DaxKeZk8AvRGyw2F9HaRYz99gkxRcMQ6oDRQvFN33qub1iU1Sy22yxm1oV7Sl+9qGSuMbUIAKkcZUbR0w</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="dim.Data.ApplicationDbContext">
+      <Value>
+      </Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

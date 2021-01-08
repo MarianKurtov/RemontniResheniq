@@ -119,7 +119,6 @@ C:\Users\Marian\source\repos\dim\dim\obj\Debug\net5.0\dim.GeneratedMSBuildEditor
 C:\Users\Marian\source\repos\dim\dim\obj\Debug\net5.0\dim.AssemblyInfoInputs.cache
 C:\Users\Marian\source\repos\dim\dim\obj\Debug\net5.0\dim.AssemblyInfo.cs
 C:\Users\Marian\source\repos\dim\dim\obj\Debug\net5.0\dim.csproj.CoreCompileInputs.cache
-C:\Users\Marian\source\repos\dim\dim\obj\Debug\net5.0\dim.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Marian\source\repos\dim\dim\obj\Debug\net5.0\dim.RazorAssemblyInfo.cache
 C:\Users\Marian\source\repos\dim\dim\obj\Debug\net5.0\dim.RazorAssemblyInfo.cs
 C:\Users\Marian\source\repos\dim\dim\obj\Debug\net5.0\staticwebassets\dim.StaticWebAssets.Manifest.cache
@@ -163,5 +162,5 @@ C:\Users\Marian\source\repos\dim\dim\obj\Debug\net5.0\Razor\Views\Home\GallerySi
 C:\Users\Marian\source\repos\dim\dim\obj\Debug\net5.0\Razor\Views\Home\GalleryStuklar.cshtml.g.cs
 C:\Users\Marian\source\repos\dim\dim\bin\Debug\net5.0\Views\Home\GalleryStuklar.cshtml
 C:\Users\Marian\source\repos\dim\dim\obj\Debug\net5.0\Razor\Views\Home\GalleryDurvodelec.cshtml.g.cs
-C:\Users\Marian\source\repos\dim\dim\obj\Debug\net5.0\dim.csprojAssemblyReference.cache
 C:\Users\Marian\source\repos\dim\dim\obj\Debug\net5.0\Razor\Views\Home\SuccessfullySendEmail.cshtml.g.cs
+C:\Users\Marian\source\repos\dim\dim\obj\Debug\net5.0\dim.MvcApplicationPartsAssemblyInfo.cache

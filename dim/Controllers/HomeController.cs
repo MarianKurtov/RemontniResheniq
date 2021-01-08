@@ -62,6 +62,10 @@ namespace dim.Controllers
         {
             return this.View();
         }
+        public IActionResult Error()
+        {
+            return this.View();
+        }
         
         public IActionResult Gallery()
         {
@@ -131,7 +135,7 @@ namespace dim.Controllers
 
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+        public IActionResult ErrorDev()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
