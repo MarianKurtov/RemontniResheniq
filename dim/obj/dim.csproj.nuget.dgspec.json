@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Marian\\source\\repos\\dim\\dim\\dim.csproj": {}
+    "C:\\Users\\Marian\\Source\\Repos\\RemontniResheniqGotov\\dim\\dim.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Marian\\source\\repos\\dim\\dim\\dim.csproj": {
+    "C:\\Users\\Marian\\Source\\Repos\\RemontniResheniqGotov\\dim\\dim.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marian\\source\\repos\\dim\\dim\\dim.csproj",
+        "projectUniqueName": "C:\\Users\\Marian\\Source\\Repos\\RemontniResheniqGotov\\dim\\dim.csproj",
         "projectName": "dim",
-        "projectPath": "C:\\Users\\Marian\\source\\repos\\dim\\dim\\dim.csproj",
+        "projectPath": "C:\\Users\\Marian\\Source\\Repos\\RemontniResheniqGotov\\dim\\dim.csproj",
         "packagesPath": "C:\\Users\\Marian\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Marian\\source\\repos\\dim\\dim\\obj\\",
+        "outputPath": "C:\\Users\\Marian\\Source\\Repos\\RemontniResheniqGotov\\dim\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Marian\\AppData\\Roaming\\NuGet\\NuGet.Config",

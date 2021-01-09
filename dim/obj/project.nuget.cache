@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Mq/IK/0RnCh1V56dUu/vCu1PL96wH1WmZFyBMJ2+m7AcIV6xa+YchaUfv1eExejemJ0J8ja7SNG8UO4AjfMYcQ==",
+  "dgSpecHash": "ENywhTyGkWbSsdqo29IVf3CRkydLWr85qdDCQ/VPckDIUMCw2X2y6C2onEvfgP49RTspLjp54b2Hjv89v1RuHQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Marian\\source\\repos\\dim\\dim\\dim.csproj",
+  "projectFilePath": "C:\\Users\\Marian\\Source\\Repos\\RemontniResheniqGotov\\dim\\dim.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Marian\\.nuget\\packages\\cloudinarydotnet\\1.14.0\\cloudinarydotnet.1.14.0.nupkg.sha512",
     "C:\\Users\\Marian\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
