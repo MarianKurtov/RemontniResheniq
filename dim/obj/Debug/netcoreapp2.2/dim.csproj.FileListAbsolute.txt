@@ -1,0 +1,4 @@
+C:\Users\Marian\Source\Repos\RemontniResheniq\dim\obj\Debug\netcoreapp2.2\dim.csprojAssemblyReference.cache
+C:\Users\Marian\Source\Repos\RemontniResheniq\dim\obj\Debug\netcoreapp2.2\dim.AssemblyInfoInputs.cache
+C:\Users\Marian\Source\Repos\RemontniResheniq\dim\obj\Debug\netcoreapp2.2\dim.AssemblyInfo.cs
+C:\Users\Marian\Source\Repos\RemontniResheniq\dim\obj\Debug\netcoreapp2.2\dim.csproj.CoreCompileInputs.cache
