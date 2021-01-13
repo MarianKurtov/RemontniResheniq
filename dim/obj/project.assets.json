@@ -8330,11 +8330,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Marian\\Source\\Repos\\RemontniResheniqRELEASE\\dim\\dim.csproj",
+      "projectUniqueName": "C:\\Users\\Marian\\Source\\Repos\\RemontniResheniqTOWA\\dim\\dim.csproj",
       "projectName": "dim",
-      "projectPath": "C:\\Users\\Marian\\Source\\Repos\\RemontniResheniqRELEASE\\dim\\dim.csproj",
+      "projectPath": "C:\\Users\\Marian\\Source\\Repos\\RemontniResheniqTOWA\\dim\\dim.csproj",
       "packagesPath": "C:\\Users\\Marian\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Marian\\Source\\Repos\\RemontniResheniqRELEASE\\dim\\obj\\",
+      "outputPath": "C:\\Users\\Marian\\Source\\Repos\\RemontniResheniqTOWA\\dim\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Marian\\AppData\\Roaming\\NuGet\\NuGet.Config",
