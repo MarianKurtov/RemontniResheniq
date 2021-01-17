@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VLA8idnKmLvfJyGUqQDVSk/PmL0FYDizjQq7iXz7S6wW3xFnBEFr90DICknQWNI/xkyOSnm4INZYI6TUpZlchw==",
+  "dgSpecHash": "iWlzAyp4jQxjiv3e4iuvaPKbiWMdB5JIPScNpCn7GSUERPU0dXwppx8EQhwFm2DmimLKt1nWNEixAkHcvRcxng==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Marian\\Source\\Repos\\RemontniResheniqTOWA\\dim\\dim.csproj",
+  "projectFilePath": "C:\\Users\\Marian\\Source\\Repos\\RemontniResheniqLastVersion\\dim\\dim.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Marian\\.nuget\\packages\\cloudinarydotnet\\1.14.0\\cloudinarydotnet.1.14.0.nupkg.sha512",
     "C:\\Users\\Marian\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

@@ -9,134 +9,134 @@
 <head>
     <title>Контакти</title>
 </head>
-    <body>
-        <main class="page-content">
-            <section class="section-40 section-lg-64 bg-gray-lighter">
-                <div class="breadcrumbs-wrap">
-                    <div class="shell text-center">
-                        <div class="wrap-sm-justify-horizontal">
-                            <div class="text-sm-left">
-                                <h1>Контакти</h1>
-                            </div>
-                            <div class="offset-top-22 offset-sm-top-0 text-sm-right">
-                                <ul class="breadcrumbs-custom">
-                                    <li class="active">Contacts</li>
+<body>
+    <main class="page-content">
+        <section class="section-40 section-lg-64 bg-gray-lighter">
+            <div class="breadcrumbs-wrap">
+                <div class="shell text-center">
+                    <div class="wrap-sm-justify-horizontal">
+                        <div class="text-sm-left">
+                            <h1>Контакти</h1>
+                        </div>
+                        <div class="offset-top-22 offset-sm-top-0 text-sm-right">
+                            <ul class="breadcrumbs-custom">
+                                <li class="active">Contacts</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section-60 section-sm-90">
+            <div class="shell">
+                <div class="range">
+                    <div class="cell-md-8">
+                        <h5>Свържете се с нас</h5>
+                        <hr>
+                        <p>Може да изпратите запитване или да се обадите на посочения тефелефон за връзка.</p>
+                        <p>При въпроси не се колебайте да се свържете с нас!</p>
+                        <div class="offset-top-50">
+
+                            <form method="post">
+                                <div>
+                                    <div id="input" class="form-group">
+                                        <label asp-for="@Model.Name"></label>
+                                        <input asp-for="@Model.Name" class="form-control" />
+                                        <span asp-validation-for="Name" class="text-danger"></span>
+                                    </div>
+                                    <div id="input" class="form-group">
+                                        <label asp-for="@Model.Email"></label>
+                                        <input asp-for="@Model.Email" class="form-control" />
+                                        <span asp-validation-for="Email" class="text-danger"></span>
+                                    </div>
+                                    <div id="input" class="form-group">
+                                        <label asp-for="@Model.Phone"></label>
+                                        <input asp-for="@Model.Phone" class="form-control" />
+                                        <span asp-validation-for="Phone" class="text-danger"></span>
+                                    </div>
+                                    <div id="input" class="form-group">
+                                        <label asp-for="@Model.Content"></label>
+                                        <textarea asp-for="@Model.Content" class="form-control" rows="5"></textarea>
+                                        <span asp-validation-for="Content" class="text-danger"></span>
+                                    </div>
+                                    <p>
+                                        Натискайки бутона "Изпратете ни съобщение" за да ни изпратите съобщението.
+                                    </p>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary">Изпратете ни съобщение</button>
+                            </form>
+
+                        </div>
+                    </div>
+                    <div class="cell-md-4">
+                        <div class="range inset-lg-left-30">
+                            <div class="cell-sm-6 cell-md-12">
+                                <h5>Социална мрежа</h5>
+                                <hr>
+                                <ul class="list-inline list-inline-xxs">
+                                    <li><a href="#" class="icon icon-xs icon-circle icon-white icon-filled-facebook fa-facebook"></a></li>
                                 </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="section-60 section-sm-90">
-                <div class="shell">
-                    <div class="range">
-                        <div class="cell-md-8">
-                            <h5>Свържете се с нас</h5>
-                            <hr>
-                            <p>Може да изпратите запитване или да се обадите на посочения тефелефон за връзка.</p>
-                            <p>При въпроси не се колебайте да се свържете с нас!</p>
-                            <div class="offset-top-50">
-
-                                <form method="post">
-                                    <div>
-                                        <div id="input" class="form-group">
-                                            <label asp-for="@Model.Name"></label>
-                                            <input asp-for="@Model.Name" class="form-control" />
-                                            <span asp-validation-for="Name" class="text-danger"></span>
-                                        </div>
-                                        <div id="input" class="form-group">
-                                            <label asp-for="@Model.Email"></label>
-                                            <input asp-for="@Model.Email" class="form-control" />
-                                            <span asp-validation-for="Email" class="text-danger"></span>
-                                        </div>
-                                        <div id="input" class="form-group">
-                                            <label asp-for="@Model.Phone"></label>
-                                            <input asp-for="@Model.Phone" class="form-control" />
-                                            <span asp-validation-for="Phone" class="text-danger"></span>
-                                        </div>
-                                        <div id="input" class="form-group">
-                                            <label asp-for="@Model.Content"></label>
-                                            <textarea asp-for="@Model.Content" class="form-control" rows="5"></textarea>
-                                            <span asp-validation-for="Content" class="text-danger"></span>
-                                        </div>
-                                        <p>
-                                            Натискайки бутона "Изпратете ни съобщение" за да ни изпратите съобщението.
-                                        </p>
-                                    </div>
-
-                                    <button type="submit" class="btn btn-primary">Изпратете ни съобщение</button>
-                                </form>
-
-                            </div>
-                        </div>
-                        <div class="cell-md-4">
-                            <div class="range inset-lg-left-30">
-                                <div class="cell-sm-6 cell-md-12">
-                                    <h5>Социална мрежа</h5>
+                                <div class="offset-top-30 offset-md-top-55">
+                                    <h5>Телефон за връзка</h5>
                                     <hr>
-                                    <ul class="list-inline list-inline-xxs">
-                                        <li><a href="#" class="icon icon-xs icon-circle icon-white icon-filled-facebook fa-facebook"></a></li>
-                                    </ul>
-                                    <div class="offset-top-30 offset-md-top-55">
-                                        <h5>Телефон за връзка</h5>
-                                        <hr>
-                                        <address class="contact-info">
-                                            <div class="unit unit-horizontal unit-spacing-xs">
-                                                <div class="unit-left icon-adjust-vertical"><span class="icon icon-xs icon-primary mdi mdi-phone"></span></div>
-                                                <div class="unit-body">
-                                                    <ul class="list-links">
-                                                        <li><a href="callto:#" class="link-black">0889981800</a></li>
-                                                    </ul>
-                                                    <ul class="list-links">
-                                                        <li><a href="callto:#" class="link-black">0889288410</a></li>
-                                                    </ul>
-                                                    <ul class="list-links">
-                                                        <li><a href="callto:#" class="link-black">0884397746</a></li>
-                                                    </ul>
-                                                </div>
+                                    <address class="contact-info">
+                                        <div class="unit unit-horizontal unit-spacing-xs">
+                                            <div class="unit-left icon-adjust-vertical"><span class="icon icon-xs icon-primary mdi mdi-phone"></span></div>
+                                            <div class="unit-body">
+                                                <ul class="list-links">
+                                                    <li><a href="callto:#" class="link-black">0889981800</a></li>
+                                                </ul>
+                                                <ul class="list-links">
+                                                    <li><a href="callto:#" class="link-black">0889288410</a></li>
+                                                </ul>
+                                                <ul class="list-links">
+                                                    <li><a href="callto:#" class="link-black">0884397746</a></li>
+                                                </ul>
                                             </div>
-                                        </address>
-                                    </div>
-                                    <div class="offset-top-70 offset-md-top-55">
-                                        <h5>Адрес</h5>
-                                        <hr>
-                                        <address class="contact-info">
-                                            <div class="unit unit-horizontal unit-spacing-xs">
-                                                <div class="unit-body">
-                                                    <a href="#" class="link-black nowrap">
-                                                        <span>гр. София, Младост 1,</span>
-                                                        <span>вх. 8, ет. 6, ап. 107</span>
-                                                    </a>
-                                                </div>
+                                        </div>
+                                    </address>
+                                </div>
+                                <div class="offset-top-70 offset-md-top-55">
+                                    <h5>Адрес</h5>
+                                    <hr>
+                                    <address class="contact-info">
+                                        <div class="unit unit-horizontal unit-spacing-xs">
+                                            <div class="unit-body">
+                                                <a href="#" class="link-black nowrap">
+                                                    <span>"МАРСИ-07" ЕООД</span>
+                                                    <span>гр. София, Младост 1</span>
+                                                </a>
                                             </div>
-                                        </address>
+                                        </div>
+                                    </address>
+                                </div>
+                            </div>
+                            <div class="cell-sm-6 cell-md-12 offset-top-30 offset-sm-top-0 offset-md-top-55">
+                                <h5>Работно време</h5>
+                                <hr>
+                                <div class="offset-top-22">
+                                    <div class="contact-info">
+                                        <div class="unit unit-horizontal unit-spacing-xs">
+                                            <div class="unit-left icon-adjust-vertical"><span class="icon icon-xs icon-primary mdi mdi-calendar-clock"></span></div>
+                                            <div class="unit-body"><span class="text-black">Пон-Пет: 09:00-18:30</span><span class="text-black">Съб-Нед: Почивка</span></div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="cell-sm-6 cell-md-12 offset-top-30 offset-sm-top-0 offset-md-top-55">
-                                    <h5>Работно време</h5>
+                                <div class="offset-top-30 offset-md-top-55">
+                                    <h5>E-mail</h5>
                                     <hr>
-                                    <div class="offset-top-22">
-                                        <div class="contact-info">
-                                            <div class="unit unit-horizontal unit-spacing-xs">
-                                                <div class="unit-left icon-adjust-vertical"><span class="icon icon-xs icon-primary mdi mdi-calendar-clock"></span></div>
-                                                <div class="unit-body"><span class="text-black">Пон-Пет: 09:00-18:30</span><span class="text-black">Съб-Нед: Почивка</span></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="offset-top-30 offset-md-top-55">
-                                        <h5>E-mail</h5>
-                                        <hr>
-                                        <div class="unit unit-horizontal unit-spacing-xs offset-top-22">
-                                            <div class="unit-left icon-adjust-vertical"><span class="icon icon-xs icon-primary mdi mdi-email-outline"></span></div>
-                                            <div class="unit-body"><a href="#89aa" class="link-primary"><span class="__cf_email__" data-cfemail="056c6b636a456160686a696c6b6e2b6a7762">remontniresheniq@gmail.com</span></a></div>
-                                        </div>
+                                    <div class="unit unit-horizontal unit-spacing-xs offset-top-22">
+                                        <div class="unit-left icon-adjust-vertical"><span class="icon icon-xs icon-primary mdi mdi-email-outline"></span></div>
+                                        <div class="unit-body"><a href="#89aa" class="link-primary"><span class="__cf_email__" data-cfemail="056c6b636a456160686a696c6b6e2b6a7762">remontniresheniq@gmail.com</span></a></div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
+        </section>
 </body>
 </html>
 
